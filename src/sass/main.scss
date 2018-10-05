@@ -1,1 +1,37 @@
+$body-bg:                   #5D5C61;
+//$body-color:                $gray-900 !default;
+
+$primary:       #7395AE;
+$secondary:     #557A95;
+$success:       #379683;
+$info:          #B1A296;
+$light:         #FFFFFF;
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  color: $light;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.duck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 23px;
+}
