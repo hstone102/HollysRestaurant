@@ -1,4 +1,13 @@
-
+let wedMenuItem1 = document.getElementById('wedMenuItem1');
+let wedMenuItem2 = document.getElementById('wedMenuItem2');
+let wedMenuItem3 = document.getElementById('wedMenuItem3');
+let wedMenuItem4 = document.getElementById('wedMenuItem4');
+let wedMenuItem5 = document.getElementById('wedMenuItem5');
+let wedMenuItem6 = document.getElementById('wedMenuItem6');
+let wedMenuItem7 = document.getElementById('wedMenuItem7');
+let wedMenuItem8 = document.getElementById('wedMenuItem8');
+let wedMenuItem9 = document.getElementById('wedMenuItem9');
+let wedMenuItem10 = document.getElementById('wedMenuItem10');
 
 var requestURL = 'https://entree-f18.herokuapp.com/v1/menu';
 var request = new XMLHttpRequest();

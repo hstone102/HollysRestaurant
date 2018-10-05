@@ -1,30 +1,13 @@
-
-
-var requestURL = 'https://entree-f18.herokuapp.com/v1/menu';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-request.onload = function () {
-
-  if (request.status >= 200 && request.status < 400) {
-
-    wedMenuItem1.innerHTML = request.response.menu_items[0].description;
-    wedMenuItem2.innerHTML = request.response.menu_items[1].description;
-    wedMenuItem3.innerHTML = request.response.menu_items[2].description;
-    wedMenuItem4.innerHTML = request.response.menu_items[3].description;
-    wedMenuItem5.innerHTML = request.response.menu_items[4].description;
-    wedMenuItem6.innerHTML = request.response.menu_items[5].description;
-    wedMenuItem7.innerHTML = request.response.menu_items[6].description;
-    wedMenuItem8.innerHTML = request.response.menu_items[7].description;
-    wedMenuItem9.innerHTML = request.response.menu_items[8].description;
-    wedMenuItem10.innerHTML = request.response.menu_items[9].description;
-    console.log(request.response.menu_items[0].description);
-  } else {
-    alert("Connection to the menu isn't working, try again later.");
-  }
-};
+let sunMenuItem1 = document.getElementById('sunMenuItem1');
+let sunMenuItem2 = document.getElementById('sunMenuItem2');
+let sunMenuItem3 = document.getElementById('sunMenuItem3');
+let sunMenuItem4 = document.getElementById('sunMenuItem4');
+let sunMenuItem5 = document.getElementById('sunMenuItem5');
+let sunMenuItem6 = document.getElementById('sunMenuItem6');
+let sunMenuItem7 = document.getElementById('sunMenuItem7');
+let sunMenuItem8 = document.getElementById('sunMenuItem8');
+let sunMenuItem9 = document.getElementById('sunMenuItem9');
+let sunMenuItem10 = document.getElementById('sunMenuItem10');
 
 var requestURLtwo = 'https://entree-f18.herokuapp.com/v1/menu/12';
 var requesttwo = new XMLHttpRequest();
