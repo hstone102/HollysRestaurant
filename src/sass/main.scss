@@ -23,7 +23,7 @@ h1 {
 }
 
 h2, h3 {
-  color: $light;
+  color: black;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   padding-top: 10px;
@@ -48,6 +48,7 @@ a {
   margin-right: auto;
   text-align: center;
   font-size: 23px;
+  color: white;
 }
 
 .card {
@@ -74,4 +75,60 @@ a {
 .row{
   margin-right: 0px;
   margin-left: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.navbar{
+  line-height: 25px;
+  height: 125px;
+  padding-top: 0;
+  width: 100% !important;
+}
+
+.link-1:hover {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 0px 0;
+  background-color: #557A95;
+}
+
+.link-2:hover {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 0px 0;
+  background-color: #557A95;
+}
+
+.link-3:hover {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 0px 0;
+  background-color: #557A95;
+}
+
+.link-4:hover {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 0px 0;
+  background-color: #557A95;
+}
+.link-5:hover {
+  color: white;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 0px 0;
+  background-color: #557A95;
+}
+
+.hourHeader {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 50%;
+  margin: 0 auto;
 }
